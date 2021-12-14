@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+<body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+       
+    </div>
+    <!-- built files will be auto injected -->
+    
+
+    <div class="header" >
+      <h1 class="about me">ABOUT </h1>
+      
+      <p class="about"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+     
+        </div>
+       
+
+        <div class="section">
+          <h3>Our Cafe Branch</h3>
+
+        </div>
+
+        <div class="project">
+          <div class="image">
+            <img src="SB7.jpg" alt="first" style="width:100%" height="250" width="500" >
+            <div class="top-left">New York</div>
+          </div>
+          <div class="image">
+            <img src="SB2.jpg" alt="second"  style="width:100%" height="250" width="500">  
+          </div>  
+          <p style="clear: both;"
+          <div class="image2">
+            <img src="SB3.jpg" alt="third" style="width:100%" height="250" width="500">  
+        </div> 
+          <div class="image2">
+            <img src="SB4.jpg" alt="fourth" style="width:100%" height="250" width="500">  
+          </div> 
+          <div class="image2">
+            <img src="SB5.jpg" alt="fifth" style="width:100%" height="250" width="500">   
+          </div> 
+          <div class="image2">
+            <img src="SB6.jpg" alt="sixth" style="width:100%" height="250" width="500">  
+          </div> 
+          <p style="clear: both;"
+        </div>  
+
+         <p></p>
+        <div class="Youtube">Our Cafe tour
+        <p></p>
+       <iframe width="420" height="345"
+       src="https://www.youtube.com/embed/liwsU1QCeoI"></iframe>
+      </div> 
+
+        <!--Contact-->
+        <p></p>
+            <div id="contact">
+              <h4 class="detail">CONTACT</h4>
+              Kuala Lumpur, Malaysia<br>
+              Phone:+6012345687<br>
+              Email:ourcafe@cafe.com<br>
+              <p class="note"><i>Any enquiry? Do drop a note!</i></p>
+
+              <form action="/action_page.php" target="_blank">
+                <input class="detail-input" type="text" placeholder="Name" required name="Name">
+                <input class="detail-input" type="text" placeholder="Email" required name="Email">
+                <input class="detail-input" type="text" placeholder="Message" required name="Message"><br>
+                <button class="button-black" type="submit">SEND</button>
+                <p></p>
+              
+                <img src="contact.jpg" alt="contact-img" width="1870" height="400">
+                 
+              </form>
+
+
+          </div>
+        
+
+  <style>
+    body {
+      margin-top: 1px;
+      padding: 1px;
+    }
+    p.about {
+      line-height: 1.8;
+    }
+    .sideparagraph {
+      text-align: center;
+     
+    }
+    .sideparagraph p {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+    }
+    * {
+   box-sizing: border-box;
+      }
+
+    .project {
+      display: flex;
+      align-items: center;
+    }
+ 
+    .image {
+    flex: 33.33%;
+    padding: 5px;
+  
+    }
+    .project::after {
+    content: "";
+    clear: both;
+    display: table;
+    }   
+    .image2{
+    float: left;
+    width: 30%;
+    padding: 5px;
+    }
+    .section{
+      text-align: center;
+    }
+    #contact {
+      text-align: center;
+      font-size: x-large;
+    }
+    .youtube {
+      text-align: center;
+
+    }
+    .button-black {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+
+ 
+
+</body>
+  
+</html>
